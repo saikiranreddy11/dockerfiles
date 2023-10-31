@@ -1,0 +1,4 @@
+FROM almalinux:8
+ENV mongourl=mongodb.saikiransudhireddy.com \
+    hostid=100.100.100.100 \
+    username=saikiran
