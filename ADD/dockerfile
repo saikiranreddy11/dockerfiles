@@ -3,4 +3,5 @@ RUN yum install nginx -y
 RUN rm -rf /usr/share/nginx/html/
 ADD index.html /usr/share/nginx/html/
 ADD https://raw.githubusercontent.com/sivadevopsdaws74s/dockerfiles/master/README.MD /tmp/  
+ADD sample-1.tar /tmp
 CMD ["nginx", "-g", "daemon off;"]
