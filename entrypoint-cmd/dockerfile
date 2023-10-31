@@ -1,4 +1,4 @@
 FROM almalinux:8
 RUN yum install nginx -y
-CMD ["www.google.com"]
-ENTRYPOINT ["ping", "-c5"]
+CMD ["ping", "-c5","www.facebook.com"]
+ENTRYPOINT ["ping", "-c5", "www.google.com"]
