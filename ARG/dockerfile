@@ -1,3 +1,5 @@
 ARG version
 FROM almalinux:${version}
+ARG course
 RUN echo "checking the arg after the FROM statement ${version}"
+RUN echo "checking the arg after the FROM statement ${course}"
