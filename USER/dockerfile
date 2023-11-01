@@ -1,4 +1,4 @@
 FROM almalinux:8
 RUN useradd saikiran
 USER saikiran
-RUN echo"Runninh th euser saikiran" > /tmp/index.html
+RUN echo "Runninh th euser saikiran" > /tmp/index.html
