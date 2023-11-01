@@ -1,0 +1,2 @@
+FROM from:v1
+ONBUILD COPY index.html /tmp
