@@ -1,5 +1,7 @@
 ARG version
 FROM almalinux:${version}
 ARG course
+ENV course=${course} 
+# arg variables work only under the build time, env variables work in the container also (i.e., at run time) 
 RUN echo "checking the arg after the FROM statement ${version}"
 RUN echo "checking the arg after the FROM statement ${course}"
