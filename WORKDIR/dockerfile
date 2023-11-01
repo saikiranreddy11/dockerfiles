@@ -1,3 +1,3 @@
-FROM lamalinux:8
+FROM almalinux:8
 RUN cd /tmp
 RUN echo "this is testing the workdir" > index.html
