@@ -1,3 +1,4 @@
 FROM almalinux:8
 RUN useradd saikiran
 USER saikiran
+RUN chmod 777 /tmp
