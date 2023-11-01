@@ -1,3 +1,4 @@
-FROM almalinux:8
+FROM user:v1
 RUN cd /tmp
+RUN chmod 777 /tmp
 RUN echo "this is testing the workdir" > index.html
